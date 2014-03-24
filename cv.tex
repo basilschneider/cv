@@ -1,0 +1,356 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.0 (5/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+%\addbibresource{bibliography.bib} % Specify the bibliography file to include publications
+
+\begin{document}
+
+\header{Basil }{Schneider}{} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+  \section{contact}
+  Rheinstrasse 63
+  4410 Liestal
+  Switzerland
+  ~
+  +41 (0) 78 710 37 55
+  ~
+  \href{mailto:basil.schneider@cern.ch}{basil.schneider@cern.ch}
+  \section{about}
+  Swiss citizenship
+  Born 19\textsuperscript{th} March 1982
+  \section{languages}
+  German (native)
+  English (fluent)
+  French (moderate)
+  \section{computing}
+  Linux
+  C++, Python
+  Root, RooFit, RooStats
+  Bash, Sed, Awk
+  \LaTeX
+  \section{besides physics}
+  Cycling
+  Hiking
+  Music
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{education \& employment}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{Jan '11--Now}
+{Ph.D. {\normalfont at} ATLAS}
+{University of Bern, Albert Einstein Centre for Fundamental Physics}
+{Ph.D Thesis: A general approach to search for various supersymmetric signatures at once by binning the signal region}
+%------------------------------------------------
+\entry
+{Sep '08--Mar '10}
+{Master {\normalfont of Science in} Theoretical Physics}
+{ETH Zurich}
+{Master Thesis: The partition function of meromorphic conformal field theories at higher genus\\
+Overall grade: 5.13 (6 is the highest, 1 is the lowest; passmark is 4)}
+%------------------------------------------------
+\entry
+{Oct '04--Sep '08}
+{Bachelor {\normalfont of Science in} Experimental Physics}
+{ETH Zurich}
+{Bachelor Thesis: Untersuchung der Cluster-Struktur von Elastomerpartikeln durch Simulation des Aggregationsvorganges und Partikelgr{\"o}ssen mitteld dynamic
+light scattering\\
+Overall grade: 5.07}
+\entry
+{Sep '04}
+{Comprehensive entrance exam}
+{ETH Zurich}
+{Exam at the level of a Matura}
+%------------------------------------------------
+\end{entrylist}
+
+\section{teaching}
+
+\begin{entrylist}
+
+\entry
+{Jan '11--Now}
+{Lab Course}
+{University of Bern}
+{Superivising and assisting Physics undergraduate students working on fundamental and historic experiments}
+
+\entry
+{Jan '11--Now}
+{Physics for Biologists}
+{University of Bern}
+{Assisting 1\textsupscript{st} year Physics course}
+
+\entry
+{Jul '11--Now}
+{Private lessons for high-school graduates}
+{Interlink Schulberatung GmbH}
+{Private lessons in Mathematics, Statistics and Physics}
+
+\entry
+{2007/2008}
+{Teaching assistant}
+{ETH Zurich}
+{Teaching assistant for environmental science students in Calculus}
+
+\end{entrylist}
+
+\section{conferences}
+
+\begin{entrylist}
+
+  \entry
+  {Jun '11}
+  {Physics at LHC 2011}
+  {Perugia, Italy}
+  {\href{https://cds.cern.ch/record/1371922}{Poster presentation} with the title ``SUSY Searches at ATLAS in Multilepton Final States with Jets and Missing
+  Transverse Energy''}
+
+  \entry
+  {May '13}
+  {1\textsupscript{st} Large Hadron Collider Physics Conference}
+  {Barcelona, Spain}
+  {\href{https://cds.cern.ch/record/1555743}{Poster presentation} with the title ``Search for direct production of charginos and neutralinos in events with three
+  leptons and missing transverse momentum in 21fb$^{−1}$ of $pp$ collisions at $\sqrt{s} = 8$ TeV with the ATLAS detector''}
+
+\end{entrylist}
+
+\section{experience}
+
+\begin{entrylist}
+
+  \entry
+  {Jan '11--Dec '12}
+  {Hardware: IBL{\normalfont
+    \begin{itemize}
+      \item Building up the IBL activities at the University of Bern
+      \item Test of the optical readouts
+      \item Fesibility study of the usage of commercial products
+      \item Choosing best canditate based on experimental data
+      \item Rudimentary knowledge in FPGA programming with VHDL
+      \item Presented the studies at 2 IBL general meetings on behalf of the ATLAS Bern group
+      \item Replacing dead optical transmitters in USA15
+  \end{itemize}}}
+  {}
+  {\vspace*{-22pt}}
+
+\entry
+{Mar '12--Now}
+{Analysis: Supersymmetry{\normalfont
+  \begin{itemize}
+  \item Binning and optimizing the three light lepton final state parameter space
+  \item Signal region optimization in the three lepton final states with taus
+  \item Assembling and scripting a package of various scripts to facilitate limit computations; also used by other analyses
+  \item Statistical interpretation of results: Discovery $p$-values, limits on visible cross-sections, exclusion contours, upper limits on model cross-sections
+  \item Optimization of distributed computing resources for limit calculation with pseudo-experiments
+  \item Presented the analyses at 2 SUSY-Approvals on behalf of the multilepton group
+\end{itemize}}}
+{}
+  {\vspace*{-22pt}}
+
+\end{entrylist}
+
+\section{publications}
+Only publications listed where I contributed a substantial part of the work
+
+\begin{entrylist}
+
+  \entry
+  {Nov '11}
+  {{\normalfont The ATLAS IBL BOC Demonstrator}}
+  {\href{https://cds.cern.ch/record/1401224}{ATL-INDET-PROC-2011-038}}
+  {\vspace*{-8pt}}
+
+  \entry
+  {Aug '12}
+  {{\normalfont Search for direct production of charginos and neutralinos in events with three leptons and missing transverse momentum in $\sqrt{s} = 7$ TeV
+  $pp$ collisions with the ATLAS detector}}
+  {\href{http://arxiv.org/abs/1208.3144}{arXiv:1208.3144}}
+  {\vspace*{-8pt}}
+
+  \entry
+  {Nov '12}
+  {{\normalfont Search for direct production of charginos and neutralinos in events with three leptons and missing transverse momentum in $13.0$ fb$^{-1}$ of
+  $pp$ collisions at $\sqrt{s}=8$ TeV with the ATLAS detector}}
+  {\href{https://cds.cern.ch/record/1493493}{ATLAS-CONF-2012-154}}
+  {\vspace*{-8pt}}
+
+  \entry
+  {Nov '12}
+  {{\normalfont Search for Supersymmetry in events with four or more leptons in $13$ fb$^{-1}$ $pp$ collisions at $\sqrt{s} = 8$ TeV with the ATLAS detector}}
+  {\href{https://cds.cern.ch/record/1493492}{ATLAS-CONF-2012-153}}
+  {\vspace*{-8pt}}
+
+  \entry
+  {Mar '13}
+  {{\normalfont Search for direct production of charginos and neutralinos in events with three leptons and missing transverse momentum in $21$ fb$^{-1}$ of $pp$
+  collisions at $\sqrt{s}=8$ TeV with the ATLAS detector}}
+  {\href{https://cds.cern.ch/record/1532426}{ATLAS-CONF-2013-035}}
+  {\vspace*{-8pt}}
+
+  \entry
+  {Mar '13}
+  {{\normalfont Search for supersymmetry in events with four or more leptons in $21$ fb$^{-1}$ of $pp$ collisions at $\sqrt{s} = 8$ TeV with the ATLAS
+detector}}
+{\href{https://cds.cern.ch/record/1532429}{ATLAS-CONF-2013-036}}
+{\vspace*{-8pt}}
+
+  \entry
+  {Feb '14}
+  {{\normalfont Search for direct production of charginos and neutralinos in events with three leptons and missing transverse momentum in $\sqrt{s} = 8$ TeV
+  $pp$ collisions with the ATLAS detector}}
+  {\href{http://arxiv.org/abs/1402.7029}{arXiv:1402.7029}}
+  {\vspace*{-8pt}}
+
+\end{entrylist}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{experience}
+%
+%\begin{entrylist}
+%%------------------------------------------------
+%  \entry
+%  {2012--Now}
+%  {LEHMAN BROTHERS}
+%  {Los Angeles, California}
+%  {\emph{1\textsuperscript{st} Year Analyst} \\
+%  Developed spreadsheets for risk analysis on exotic derivatives on a wide array of commodities (ags, oils, precious and base metals), managed blotter and secondary trades on structured notes, liaised with Middle Office, Sales and Structuring for bookkeeping. \\
+%  Detailed achievements:
+%  \begin{itemize}
+%    \item Learned how to make amazing coffee
+%    \item Finally determined the reason for \textsc{PC LOAD LETTER}:
+%      \begin{itemize}
+%        \item Paper jam
+%        \item Software issues:
+%          \begin{itemize}
+%            \item Word not sending the correct data to printer
+%            \item Windows trying to print in letter format
+%          \end{itemize}
+%        \item Coffee spilled inside printer
+%      \end{itemize}
+%    \item Broke the office record for number of kitten pictures in cubicle
+%  \end{itemize}}
+%%------------------------------------------------
+%  \entry
+%  {2010--2011}
+%  {LEHMAN BROTHERS}
+%  {London, United Kingdom}
+%  {\emph{Summer Intern} \\
+%Rated "truly distinctive" for Analytical Skills and Teamwork.}
+%%------------------------------------------------
+%\entry
+%{2008-2009}
+%{Buy More}
+%{Burbank, California}
+%{\emph{Computer Repair Specialist} \\
+%Worked in the Nerd Herd and helped to solve computer problems by asking customers to turn their computers off and on again.}
+%%------------------------------------------------
+%\end{entrylist}
+%
+%%----------------------------------------------------------------------------------------
+%%	AWARDS SECTION
+%%----------------------------------------------------------------------------------------
+%
+%\section{awards}
+%
+%\begin{entrylist}
+%%------------------------------------------------
+%  \entry
+%  {2011}
+%  {Postgraduate Scholarship}
+%  {School of Business, The University of California}
+%  {Awarded to the top student in their final year of a Bachelors degree.}
+%%------------------------------------------------
+%\end{entrylist}
+%
+%%----------------------------------------------------------------------------------------
+%%	COMMUNICATION SKILLS SECTION
+%%----------------------------------------------------------------------------------------
+%
+%\section{communication skills}
+%
+%\begin{entrylist}
+%%------------------------------------------------
+%  \entry
+%  {2011}
+%  {Oral Presentation}
+%  {California Business Conference}
+%  {Presented the research I conducted for my Masters of Commerce degree.}
+%%------------------------------------------------
+%  \entry
+%  {2010}
+%  {Poster}
+%  {Annual Business Conference, Oregon}
+%  {As part of the course work for BUS320, I created a poster analyzing several local businesses and presented this at a conference.}
+%%------------------------------------------------
+%\end{entrylist}
+%
+%%----------------------------------------------------------------------------------------
+%%	INTERESTS SECTION
+%%----------------------------------------------------------------------------------------
+%
+%\section{interests}
+%
+%\textbf{professional:} data analysis, company profiling, risk analysis, economics, web design, web app creation, software design, marketing \textbf{personal:} piano, chess, cooking, dancing, running
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{publications}
+%
+%\printbibsection{article}{article in peer-reviewed journal} % Print all articles from the bibliography
+%
+%\printbibsection{book}{books} % Print all books from the bibliography
+%
+%\begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
+%\nocite{*}
+%\printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, heading=subbibliography]
+%\end{refsection}
+%
+%\begin{refsection} % This is a custom heading for those references marked as "inproceedings" and containing "keyword=france"
+%\nocite{*}
+%\printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=subbibliography]
+%\end{refsection}
+%
+%\printbibsection{misc}{other publications} % Print all miscellaneous entries from the bibliography
+%
+%\printbibsection{report}{research reports} % Print all research reports from the bibliography
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
