@@ -1,0 +1,6 @@
+.Session.vim
+.vimrcPrivate
+cv.aux
+cv.log
+cv.out
+cv.pdf
