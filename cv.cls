@@ -65,7 +65,8 @@
 \setmainfont[Mapping=tex-text, Color=textcolor]{Roboto Light}
 %\setmainfont[Mapping=tex-text, Color=textcolor]{LiberationSans}
 
-\setmathfont{XITS Math}
+%\setmathfont{XITS Math}
+\setmathfont{Asana Math}
 
 %%%%%%%%%%
 % Header %
