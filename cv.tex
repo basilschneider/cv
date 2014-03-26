@@ -19,6 +19,10 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%% Set internalNotes to true to also print the internal notes; default is false
+\newif\ifinternalNotes
+%\internalNotestrue
+
 \documentclass[]{cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
 
 %\addbibresource{bibliography.bib} % Specify the bibliography file to include publications
@@ -71,7 +75,7 @@
 {Jan '11--Now}
 {Ph.D. {\normalfont at} ATLAS}
 {University of Bern, Albert Einstein Centre for Fundamental Physics}
-{Ph.D Thesis: A general approach to search for various supersymmetric signatures at once by binning the signal region}
+{Ph.D Thesis: A general approach to search for various supersymmetric signatures at once by binning the signal region using the ATLAS detector}
 %------------------------------------------------
 \entry
 {Sep '08--Mar '10}
@@ -240,6 +244,19 @@ detector}}
   {\vspace*{-8pt}}
 
 \end{entrylist}
+
+\ifinternalNotes
+\section{internal notes}
+\begin{entrylist}
+
+\entry
+{Oct '11}
+{{\normalfont SUSY Searches at ATLAS in Multilepton Final States with Jets and Missing Transverse Energy}}
+{\href{https://cds.cern.ch/record/1394331}{ATL-PHYS-PROC-2011-201}}
+{\vspace*{-8pt}}
+
+\end{entrylist}
+\fi
 
 
 %----------------------------------------------------------------------------------------
