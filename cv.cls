@@ -70,7 +70,7 @@
 %\setmainfont[Mapping=tex-text, Color=textcolor]{LiberationSans}
 
 %\setmathfont{XITS Math}
-\setmathfont{Asana Math}
+\setmathfont[Scale=.85]{Asana Math}
 
 %%%%%%%%%%
 % Header %
