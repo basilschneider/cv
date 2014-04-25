@@ -10,7 +10,7 @@
 
 
 %%% Define variable spacing, use this to change spacing between sections; \spacing is in units of \parskip's
-\newcommand{\spacing}{7}
+\newcommand{\spacing}{1}
 
 
 %%%%%%%%%%
