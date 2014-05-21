@@ -10,7 +10,7 @@
 
 
 %%% Define variable spacing, use this to change spacing between sections; \spacing is in units of \parskip's
-\newcommand{\spacing}{1}
+\newcommand{\spacingSec}{1}
 
 
 %%%%%%%%%%
@@ -98,7 +98,7 @@
   \end{tikzpicture}
   \vspace{2.44cm}
   \vspace{-\parskip}
-  \vspace{-\spacing\parskip}
+  \vspace{-\spacingSec\parskip}
 }
 
 
@@ -126,7 +126,7 @@
 }
 
 \renewcommand{\section}[1]{
-  \par\vspace{\spacing\parskip}
+  \par\vspace{\spacingSec\parskip}
   {%
     \LARGE\headingfont\color{headercolor}%
     \@sectioncolor #1%
