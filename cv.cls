@@ -113,12 +113,13 @@
   {%
     \color{%
       \ifcase\value{colorCounter}%
-        blue\or%
-        red\or%
-        orange\or%
-        green\or%
-        purple\or%
-        brown\else%
+        %blue\or%
+        %red\or%
+        %orange\or%
+        %green\or%
+        %purple\or%
+        %brown\else%
+        headercolor\else%
         headercolor\fi%
     } #1%
   }%
