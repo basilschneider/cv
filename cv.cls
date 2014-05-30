@@ -71,7 +71,7 @@
 %\setmainfont[Mapping=tex-text, Color=textcolor]{LiberationSans}
 
 %\setmathfont{XITS Math}
-\setmathfont[Scale=.85]{Asana Math}
+\setmathfont[Scale=.82]{Asana Math}
 
 %%%%%%%%%%
 % Header %
@@ -159,10 +159,11 @@
 \renewcommand{\bfseries}{\headingfont\color{headercolor}}
 \newcommand{\entry}[4]{%
   #1&\parbox[t]{11.2cm}{%
-    #2%
+    %%% Making text bold and then normal again, somehow \sqrt in math mode looks thinner
+    \textbf{{\normalfont #2}}%
     \hfill%
     {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
-    #4\vspace{\parsep}%
+    \textbf{{\normalfont #4}}\vspace{\parsep}%
   }\\}
 
 
