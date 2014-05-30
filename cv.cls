@@ -24,6 +24,7 @@
 \definecolor{darkgray}{HTML}{333333}
 \definecolor{gray}{HTML}{4D4D4D}
 \definecolor{lightgray}{HTML}{777777}
+\definecolor{headergray}{HTML}{BBBBBB}
 
 \definecolor{green}{HTML}{C2E15F}
 \definecolor{orange}{HTML}{FDA333}
@@ -41,7 +42,7 @@
   \colorlet{fillheader}{white}
   \colorlet{header}{gray}
 \else
-  \colorlet{fillheader}{gray}
+  \colorlet{fillheader}{headergray}
   \colorlet{header}{white}
 \fi
 \colorlet{textcolor}{gray}
@@ -96,6 +97,7 @@
       \thinfont #3%
     };
   \end{tikzpicture}
+  \vspace{3pt}
   \vspace{2.44cm}
   \vspace{-\parskip}
   \vspace{-\spacingSec\parskip}
@@ -174,6 +176,7 @@
 \newenvironment{aside}{%
   \let\oldsection\section
   \renewcommand{\section}[1]{
+    \vspace{3pt}
     \par\vspace{\baselineskip}{\Large\headingfont\color{headercolor} ##1}
   }
   \begin{textblock}{3.78}(1.5, 4.33)
