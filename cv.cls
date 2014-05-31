@@ -158,7 +158,7 @@
 }
 \renewcommand{\bfseries}{\headingfont\color{headercolor}}
 \newcommand{\entry}[4]{%
-  #1&\parbox[t]{11.2cm}{%
+  #1&\parbox[t]{11.1cm}{%
     %%% Making text bold and then normal again, somehow \sqrt in math mode looks thinner
     \textbf{{\normalfont #2}}%
     \hfill%
