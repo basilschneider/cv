@@ -146,9 +146,7 @@
 \pagestyle{empty}
 
 
-%%%%%%%%%%%%%%%%%%%%
-% List environment %
-%%%%%%%%%%%%%%%%%%%%
+% List environment
 
 \setlength{\tabcolsep}{2pt}
 \newenvironment{entrylist}{%
@@ -167,9 +165,7 @@
   }\\}
 
 
-%%%%%%%%%%%%%%
-% Side block %
-%%%%%%%%%%%%%%
+% Side block
 
 \RequirePackage[absolute,overlay]{textpos}
 \setlength{\TPHorizModule}{1cm}
@@ -188,6 +184,12 @@
   \end{flushright}
   \end{textblock}
   \let\section\oldsection
+}
+
+% Research statement
+
+\newenvironment{statement}{%
+}{%
 }
 
 %%%%%%%%%%%%%%%%
