@@ -189,7 +189,9 @@
 % Research statement
 
 \newenvironment{statement}{%
+  \newgeometry{left=3cm}
 }{%
+  \restoregeometry
 }
 
 %%%%%%%%%%%%%%%%
