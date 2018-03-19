@@ -5,6 +5,9 @@
 \newif\ifreferences
 %\referencestrue
 
+\newif\ifstatements
+%\statementstrue
+
 %%% Spacing used between publication entries
 \def\spacingPubs{-12pt}
 %%% Width of parbox used to right align dates
@@ -652,6 +655,7 @@ at $\sqrt{\mathsf{s}}$ = 8 TeV with the ATLAS detector}
 \end{entrylist}
 \fi
 
+\ifstatements
 \begin{statement}
 
 \section{research statement: physics program}
@@ -731,5 +735,6 @@ number of pixel and strip layers. All these studies are an important input to
 the ITk community in defining the best layout of the inner tracker.
 
 \end{statement}
+\fi
 
 \end{document}
