@@ -186,6 +186,14 @@
   \let\section\oldsection
 }
 
+% Research experience
+
+\newenvironment{researchexperience}{%
+  \newgeometry{left=3cm}
+}{%
+  \restoregeometry
+}
+
 % Research statement
 
 \newenvironment{statement}{%
