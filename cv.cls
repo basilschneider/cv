@@ -163,6 +163,15 @@
     {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
     \textbf{{\normalfont #4}}\vspace{\parsep}%
   }\\}
+\newcommand{\entrytwo}[4]{%
+  #1&\parbox[t]{11.1cm}{%
+    %%% Making text bold and then normal again, somehow \sqrt in math mode looks thinner
+    \textbf{{\normalfont #2}}\\%
+    \textbf{{\normalfont #4}}%
+    \hfill%
+    {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
+    \vspace{\parsep}%
+  }\\}
 
 
 % Side block
