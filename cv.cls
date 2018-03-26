@@ -23,7 +23,7 @@
 
 \definecolor{darkgray}{HTML}{333333}
 \definecolor{gray}{HTML}{4D4D4D}
-\definecolor{lightgray}{HTML}{777777}
+\definecolor{lightgray}{HTML}{666666}
 \definecolor{headergray}{HTML}{BBBBBB}
 
 \definecolor{green}{HTML}{C2E15F}
