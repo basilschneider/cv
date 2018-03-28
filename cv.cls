@@ -197,6 +197,12 @@
 
 % Research experience
 
+\newenvironment{resume}{%
+  \newgeometry{left=3cm}
+}{%
+  \restoregeometry
+}
+
 \newenvironment{statement}{%
   \newgeometry{left=3cm}
 }{%
