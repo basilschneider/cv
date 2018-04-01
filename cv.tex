@@ -9,7 +9,7 @@
 \resumetrue
 
 \newif\ifstatement
-%\statementtrue
+\statementtrue
 
 %%% Spacing used between publication entries
 \def\spacingPubs{-12pt}
@@ -882,151 +882,545 @@ ATLAS (up to 2015)}
 
 \ifstatement
 \begin{statement}
+
+\section{research proposal}
+
+The Large Hadron Collider (LHC) at CERN is the largest particle accelerator
+built to date and one of the most daring projects accomplished by humankind. The
+two largest experiments that are analyzing the data of the LHC have a
+multi-purpose goal: ATLAS and CMS. Both these experiments found a particle in
+2012 that was, and to date still is, compatible with the boson associated to the
+Brout-Engler-Higgs mechanism. Besides the Higgs boson, many measurements have
+been carried out with previously unseen precision and many searches for
+particles beyond the Standard Model (SM) of particle physics have been carried
+out.
+
+The achievements of the LHC and its experiments are impressive. But so far, only
+about 3 \% of the projected data has been taken. Starting with Run-1 in 2010,
+data has been taken at a center-of-mass energy of 7 and 8 TeV. After a long
+shutdown of 2 years, Run-2 started in 2015 at a center-of-mass energy of 13 TeV.
+ Until the end of 2017, a total of about 80 fb$^{-1}$ of data has been taken. At
+the end of Run-3, in 2023, a total of 300 fb$^{-1}$ is expected to be recorded
+by CMS.  The LHC and its experiments will then undergo an upgrade to deliver and
+record larger instantaneous luminosities. This is referred to as the Phase-2
+upgrades, and the LHC will become the High-Luminosity LHC (HL-LHC). At the end
+of the lifetime of the HL-LHC, a total of 3000 fb$^{-1}$ of data is expected.
+
+\vspace{15pt}
+\Large{}
+\textbf{Physics}
+\normalsize{}
+
+Searches for new physics have so far not revealed any hint of physics beyond the
+SM. However, it is clear that such new physics must exist. The SM is one of the
+most successful theories humankind has ever developed, but the theory is not
+complete. The major deficit of the SM is, that it does not include gravity. It
+does also not provide a candidate for dark matter, a hypothetical particle that
+could explain many measurements that we observe in the Universe, among others
+the rotational curves of galaxies. Another shortcoming of the SM is the
+naturalness problem: The higgs mass receives radiative corrections to its mass
+that are many orders of magnitudes larger than the mass itself. This extremely
+unlikely scenario is called the fine-tuning problem of the Higgs mass.
+
+Before the advent of the LHC era, it was widely expected that Supersymmetric
+particles would be found, even with little amount of data, as the lightest
+strongly interacting particles were believed to be not much heavier than 1 TeV.
+Supersymmetry (SUSY) is an intriguing theory. By effectively doubling the
+particle content of the SM and exploiting the only Poincar\'{e} symmetry left
+that has not yet revealed itself in nature, many shortcomings of the SM can be
+explained.
+
+The three popular shortcomings of the SM that can be solved with SUSY are: The
+naturalness problem, the unification of all interaction strengths at the grand
+unification energy (GUT scale) and the existence of a dark matter candidate.
+However, the first two of these three so called shortcomings, the naturalness
+problem and the unification of energies at the GUT scale, are maybe not real
+shortcomings of the theory.  They only arise because we have a certain pretense
+for our theories to be beautiful. Fine-tuning might exist and we might just live
+in a world where the Higgs mass is very small, compared to its corrections, by
+accident. And there is no reason why we should expect the interaction strengths
+to unify at a certain energy.
+
+The unsuccessful unification of quantum field theory with general relativity and
+the non-existence of a dark matter candidate in the SM, on the other hand,
+cannot be explained away. There must either be a correction to the theory of
+general relativity, or an additional particle that we haven't accounted for yet.
+As experimental physicists, it is one of our largest priorities, to search for a
+dark matter candidate, be it in the context of SUSY or in pure dark matter
+searches.
+
+The LHC program has also lead to the insight that despite many carefully planned
+searches, no SUSY particles have been found to date. There are basically three
+ways to explain this null-result: Either SUSY is a symmetry that is not observed
+in nature, or SUSY particles are heavy and out of reach by the LHC, or these
+particles are elusively hiding behind large backgrounds and systematic
+uncertainties, or in final states that are difficult to trigger on and
+reconstruct. We cannot know which of these scenarios answers the question why we
+have not found any SUSY particles. However, while we cannot fully eliminate
+either of the answers (except by indeed observing SUSY), we can at least refine
+our searches to make sure to not miss any SUSY particles in our data.
+
+The theoretical community shows many ways out of the perceived tension between
+SUSY theory and its non-observation. However, we also have to consider that one
+of the favorite theories of the particle physics community might not be realized
+in nature. It is important, though, that CMS continues a broad program for
+searches beyond the SM, be it in the context of SUSY or not. The SUSY search
+community in CMS has a wide spectrum of knowledge for searches. It is important
+to keep this know-how and extend searches to less obvious cases. More emphasis
+should be laid on less common search strategies. And we should not forget, that
+so far we only analyzed around 3 \% of the data we expect to receive from the LHC.
+
+The current trigger strategies need to be revisited. Currently, most SUSY
+analyses rely on a trigger that is firing when a sufficient large amount of
+missing transverse momentum is observed in an event. This has not yet led to the
+observation of any new particles. Instead we have to introduce triggers that
+include other objects, like for example the two low momentum muons that my SUSY
+search in a final state with two low momentum leptons commissioned. Other
+possibilities should be explored more often already at trigger level, such as
+angular information or the possibility of using machine learning algorithms. A
+good trigger strategy is crucial: If SUSY is hiding and we do not trigger its
+events, we will not find it. Including trigger information from the Outer
+Tracker during Phase-2 of data taking, will open up many possibilities for new
+trigger strategies, despite larger rates due to the larger instantaneous
+luminosity. As an example, it is currently very difficult to trigger on very low
+momentum electrons, since they are completely dominated by instrumental noise in
+the electronic calorimeters.
+
+Currently CMS uses data parking and scouting. Parked data are data recorded by
+firing a trigger that is either a loose version of an existing trigger or a
+completely different trigger that does not overlap with any others. This data is
+parked, meaning they are not reconstructed immediately but only when spare
+computing time is available, for example during a long shutdown. In data
+scouting, trigger thresholds are lowered as well. To control the bandwidth used
+by these triggers, only a fraction of information is stored on tape. Currently,
+non of the SUSY searches use either parked or scouted data. Exploiting these
+strategies can lead to a substantial increase of sensitivity, especially in the
+regions of parameter space that are relatively difficult to access.
+
+Also on the reconstruction side we have to refine our analyses. There already
+has been a lot of work done that aims in this direction. B-jet finding
+algorithms have been improved lately, using a deep neural network to enhance the
+efficiency for finding b-jets at the same mistagging rate. Similar approaches
+are now explored for other objects, like top-tagging or W-tagging. These efforts
+should be strengthened and exploited in all analyses where its use makes sense.
+
+High energy physics is no longer the field where the most data is analyzed.
+Other fields in computer science now analyze data sets that are larger than
+ours. This has led to many advancements in the field of big data processing.
+Machine learning algorithms have been improved and simplified. Languages and
+packages exist, that can be relatively easily applied to our field. We have to
+exploit these technical advancements and further improve the use of the latest
+technologies. Keeping pace with these developments and an increased exchange
+with experts from other fields can boost our sensitivity as well. There are
+efforts ongoing in machine learning, but other parts of technology have a
+similar potential. The programming language Rust can serve as an example here,
+since it inherently features concurrency and memory safety, without compromising
+speed. Moving away from C++ to Rust could lead to more efficient software that
+is easier to maintain.
+
+We also have to make sure that we systematically cover all possible final
+states. For example, we currently have a search for electroweakly produced SUSY
+particles that decay via a W and a Z gauge boson. The final states considered
+are in two oppositely charged leptons, three leptons and two oppositely charged
+low momentum leptons. I am part of the analysis groups that exploits the final
+state with two low momentum leptons and we are in the process of expanding the
+final state to three low momentum leptons. There is large room for improvement
+here: Analyses should make sure to cover the whole parameter space. This is not
+the case right now, as while there are searches for two high momentum leptons as
+well as two low momentum leptons, there is no search that covers a high momentum
+and a low momentum lepton. This could be achieved relatively easily and I have
+defined it as one of my goals during my co-convenership of the SUSY Leptonic
+subgroup, to make sure that these corner cases are well covered. Second, a final
+state with leptons had better sensitivity in this model up till now, but this is
+about to change. Once exclusion limits for electroweak SUSY particles are pushed
+to high values, purely hadronic final states might become more sensitive.
+Leptonic final states have the advantage of less background, hadronic ones have
+the higher branching ratios. Once the SUSY particles become heavy enough,
+background can be suppressed in the hadronic final states by requiring high
+momentum jets. At a certain point, the hadronic search will take over in
+sensitivity from the leptonic searches. We have to explore this new decay mode.
+
+While SUSY theory provides a dark matter candidate, we should also strengthen
+the pure dark matter searches. There exist already many dark matter searches and
+some of the pure dark matter searches are covered by SUSY searches. But SUSY
+often predicts a final state with several high momentum objects, while there is
+usually less activity in a pure dark matter search. We have to understand what
+phase space of pure dark matter searches is not covered yet. Dark matter can be
+searched for in direct detection, indirect detection, or collider experiments.
+We need to communicate with our colleagues from other fields, and of course also
+with the theory community, to better understand how we can extend our dark
+matter searches to cover the maximal possible parameter space.
+
+\vspace{15pt}
+\Large{}
+\textbf{Phase-2 Inner Tracker}
+\normalsize{}
+
+The HL-LHC upgrade implies extreme challenges for the design and the operation
+of the tracker in terms of radiation tolerance of sensors and readout
+electronics. This is especially true for the inner part of the tracker, equipped
+with pixel sensors: the Inner Tracker. Since I have been testing the modules of
+the Outer Tracker extensively both on a benchtop system and in several test
+beams, I can bring my expertise on setting up test stands and testing detector
+components from the CMS Phase-2 Outer Tracker to the pixel system. For the
+module qualification the plan of CMS is to use dedicated systems. Based on the
+experience with the previous CMS pixel detectors and with the Outer Tracker,
+there is a lot to gain from establishing early test stands where the entire
+chain, from the module to the electrical to optical conversion to the DAQ
+backend is tested in conditions as close as possible to those expected for the
+final detector.
+
+It is important to have a working chain to read out existing module components
+as soon as possible, then extending it with the components as they become
+available.  This should happen in close collaboration with ETH Zurich and PSI.
+Even though these institutes have different interests and responsibilities, all
+groups will benefit from an efficient read-out chain. The software needed to
+communicate with the components needs to be developed in parallel and should be
+done in close collaboration with the Outer Tracker DAQ group, since a lot of
+expertise is in this group and already many lessons have been learned in the
+past years.
+
+I want to pioneer the use of \textit{otsdaq} for the pixel detector read-out
+system, this can have an impact beyond the extended pixel detector.
+\textit{otsdaq} is a generic and highly flexible and scalable DAQ solution for
+high energy physics experiments. I already adopted \textit{otsdaq} to Outer
+Tracker modules and integrated it in the Outer Tracker DAQ. I intend to do the
+same for the Inner Tracker hardware.
+
+After getting a broad overview over the current status and the involvement of
+the group at the University of Zurich in the Inner Tracker upgrade, I want to
+take over a leading role in the on-detector electronics and the optical data
+links. For the on-detector electronics I can bring in my expertise from the
+Outer Tracker upgrade, and on optical data links I worked in the IBL upgrade in
+ATLAS. As time passes I also want to become a leader in the construction of the
+mechanics and the integration of the entire detector, and later in commissioning
+and installation.
+
+In the long term I also would like to understand if an upgrade of the current
+pixel system design, that goes further than what is currently described in the
+Technical Design Report is feasible.
+
+\newpage
 \section{research experience}
 
-I have been a member of the ATLAS Collaboration and currently am a member of the
-CMS Collaboration. My research program in both collaborations has been driven by
-the search for supersymmetric (SUSY) particles. I focus on natural SUSY searches
-that could solve the hierarchy problem, as well as providing a dark matter
-candidate that could explain the relic abundance of dark matter particles that
-we see in the Universe. I either searched for light gluinos or light
-electroweakinos.
+I have been a member of the ATLAS Collaboration between 2011 and 2015. Since
+2015 I am a member of the CMS Collaboration.
 
-The success of my research program at the HL-LHC will depend upon the
-performance of the upgraded detector. Both the IBL upgrade at ATLAS and
-the Outer Tracker upgrade at CMS that I worked on, improved or will improve the
-tracking performance of the detector.
+My research program in both experiments has been driven by the search for SUSY
+particles. I search for natural SUSY that could solve the hierarchy problem, as
+well as providing a dark matter candidate that could explain the relic abundance
+of dark matter particles that we observe in the Universe. I have a strong
+background in phenomenological SUSY. With this knowledge I can devise searches
+that are not covered by standard searches. I am also interested in understanding
+what sensitivity we can expect to have in searches beyond the SM with the
+Phase-2 detector at the HL-LHC, and later eventually at the HE-LHC.
+
+An essential part for a general purpose detector at the LHC, such as ATLAS or
+CMS is a robust tracking system to allow best possible position resolution, an
+efficient matching of tracks to vertices and a performant track separation. I
+did detector R\&D for the insertable b-layer (IBL) upgrade and optimized the
+detector design, using robustness of physics observables for the Phase-2 upgrade
+on ATLAS. In CMS I tested several components of module prototypes and developed
+a data acquisition tool (\textit{otsdaq}) that could be used in all phases of the
+detector development and operation.
+
+\vspace{15pt}
+\Large{}
+\textit{SUSY Leptonic Co-Convener in CMS since January 2018}
+\normalsize{}
+
+Since January 2018, I am the co-convener of the SUSY Leptonic subgroup in CMS.
+The Leptonic subgroup is specialized in SUSY searches with at least two leptons,
+or targeting electroweak production processes. As a convener, I facilitate and
+review several different analyses. I co-organize the biweekly meetings, in which
+new analysis developments are discussed, analyses are reviewed and approved. I
+read the documentation that the analysts provide, review analysis strategies and
+make suggestions about how they can be improved. I also read the early paper
+drafts that are put forward by the analysts. Once we agree that a certain
+analysis is in a robust state, we allow the previously blind analyses to unblind
+their signal regions. When an analysis gets approved, the review will be passed
+on the the Analysis Review Committee. From this point on, we follow the analyses
+and assist them in every way possible to efficiently lead them to a publication.
+As Co-convener I will also co-lead one of the sessions at the yearly SUSY
+workshop.
 
 \vspace{15pt}
 \Large{}
 \textit{SUSY Search in two soft oppositely charged lepton final states in CMS}
 \normalsize{}
 
-A corner stone of my research program is the hunt for higgsino-like least
-supersymmetric particles (LSP). Higgsino particles are elusive in nature.  As
-the only mass term that enters the Higgs boson's radiative corrections at the
-tree level, it is the most important ingredient to control the mass of the Higgs
-boson and therefore the most important parameter to avoid fine tuning.
+A higgsino-like electroweakino is the most important ingredient to control the
+mass of the Higgs boson. Its mass is the only SUSY parameter that enters the
+Higgs boson mass already at tree level. A pure higgsino state leads to four
+particles, two neutral and two charged ones, that are almost mass degenerate. If
+they are not accompanied by other light SUSY particles, their detection will
+pose a challenge, since the small mass splitting leads to low momentum objects.
+These objects are difficult to reconstruct and trigger on. To be able to control
+the large background that appears in searches with low momentum objects, our
+search strategy targets leptonic decays of the neutral higgsinos. In the search
+for two low momentum oppositely charged leptons, we require triggers to either
+fire because of their large missing transverse momentum, or because of two very
+low momentum muons, that additionally have a small amount of missing transverse
+momentum. The low momentum muons trigger has been specifically introduced by our
+analysis group. This search strategy was specifically chosen to target
+higgsinos, but it is also sensitive to other compressed states, like
+chargino-mediated stop decays.
 
-In the search for two soft opposite lepton final states, I first established a
-phenomenological minimal supersymmetric standard model (pMSSM), to complement
-the Simplified Models we are using and to understand if by using the simplified
-versions of the SUSY models, we indeed cover all the phase space and are not
-missing some corners. The model has also been used by a soft single lepton stop
-search, to assess if they are sensitive to higgsinos.
+In our SUSY searches, we usually use Simplified Models that include only the
+minimal particle content necessary, i.e. the relevant particle masses are the
+only free parameters. To a certain degree this lets the experimenter decouple
+the analysis from the theory involved. However, it is not a priori clear that
+Simplified Models cover all corners of a realistic extension of the SM. To
+understand if the Simplified Models that we used in our search indeed cover the
+higgsinos in a more generic SUSY model, I developed a more generic model for
+additional interpretation. In the current paper, that is using the full 2016
+dataset and is now submitted to PLB (arXiv:1801.01846 [hep-ex]) I am the contact
+person and as such reviewed the paper draft in view of the comments we received
+from the CMS Collaboration, and also from the journal referees.  
 
-The results of this search have been published in a paper
-(\href{https://arxiv.org/abs/1801.01846}{arXiv:1801.01846 [hep-ex]}) that has
-been submitted to PLB.
+We intend to further extend our search regions, by including a three low
+momentum lepton final state and enhance our sensitivity for signals with a
+displaced vertex. We plan to have a PAS ready by ICHEP 2018, including the full
+2016 and 2017 datasets. We expect to be one of the first analyses to publish a
+SUSY search with both the 2016 and 2017 datasets combined. A journal publication
+is planned to follow shortly thereafter.
 
 \vspace{15pt}
 \Large{}
-\textit{Upgrade study to assess the sensitivity in SUSY models at the HL-LHC} \\
+\textit{Upgrade study to assess the sensitivity to SUSY models at the HL-LHC}
 \normalsize{}
 
 The HL-LHC upgrade implies extreme challenges for the design of the detector,
-but also for the reconstruction and identification of particles. By increasing
-the instantaneous luminosity, additional soft proton-proton collisions (pileup)
-are contaminating the hard process we are interested in. This poses a problem
-especially for soft objects, as for example in the search for SUSY in two soft
-oppositely charged lepton final states. It therefore needs to be carefully
-studied, how much the improved detector and the large dataset benefits the
-search and how much the additional pileup events hurt the sensitivity.
+but also for the reconstruction and identification of particles. With the
+increase of the instantaneous luminosity, more and more soft proton-proton
+collisions (pileup) will be contaminating the hard process we are interested in.
+The expected average number of additional pileup events will reach 200 on
+average during the HL-LHC. This unprecedented large number of simultaneous
+collisions will pose challenges, especially for soft objects, as for example in
+the search for SUSY in two soft oppositely charged lepton final states. It is
+therefore extremely important to study how much the improved detector and the
+large dataset benefits the search and how much the additional pileup events hurt
+the sensitivity.
 
-I carried out a study to assess the sensitivity with the Phase-2 detector in an
-environment with up to 200 pileup events, and will continue to do so for the
-Yellow Report. In my study I compared the performance of FullSim detector
-simulation with the ones from Delphes, measured reconstruction and
-identification efficiencies in FullSim samples and improved the Delphes detector
-simulation to match the one obtained by FullSim. I assessed the performance of
-the missing transverse momentum in both detector simulation and compared how
-much they degrade compared to Run-2, due to additional pileup events.
+I carried out a study to assess the sensitivity of a search for higgsinos with
+two soft leptons and missing transverse momentum with the Phase-2 detector in an
+environment with up to 200 pileup events. Since we need a large number of
+background Monte Carlo events for a search with 3000 fb$^{-1}$ and since SUSY
+searches additionally require a large number of signal events, both the CMS full
+and fast detector simulation take too much computing time to be produced for a
+sensitivity study. We therefore rely on Delphes, a fast multipurpose detector
+response simulation (JHEP 02 (2014) 057).
+
+I have compared the performance of the CMS Full Detector Simulation with the
+ones from Delphes, measured reconstruction and identification efficiencies in
+FullSim samples and improved the Delphes detector simulation to match the one
+obtained by FullSim. I assessed the performance of the missing transverse
+momentum in both detector simulations and compared how much they degrade
+compared to Run-2, due to additional pileup events.
+
+My validation studies on Delphes objects in turn enabled the search for
+wino-like electroweakinos in a final state with two leptons of same charge and
+searches for staus, both in hadronic and leptonic decay channels. The two
+searches for electroweakinos will be combined in a larger framework: the
+radiatively driven natural SUSY (10.1007/JHEP12(2013)013).
+
+The results of the studies for HL-LHC that I have performed have been included
+in the TDRs for the upgrade of the Barrel calorimeters (CERN-LHCC-2017-011) and
+for the HGCAL (CERN-LHCC-2017-023). These studies, and the other ones that have
+benefited from my improvements to Delphes, will also be included in a CERN
+Yellow Report on the physics reach of the HL-LHC, that will also be used as
+input document for the European Strategy Planning for Particle Physics. Prior to
+their inclusion in the Yellow Report these analyses will also be made public as
+CMS PAS.
+
+Given my leadership role for SUSY analyses within the CMS HL-LHC studies group,
+I have also been invited to give presentations at the Future Higgs Workshop at
+CERN and the HL/HE-LHC Meeting at FNAL (the latter I had to decline due to
+conflicting commitments).
 
 \vspace{15pt}
 \Large{}
-\textit{SUSY Search exploiting the $\Delta \phi$ variable in single lepton final states in CMS} \\
+\textit{SUSY Search exploiting angular information in single lepton final states in CMS}
 \normalsize{}
 
-With a small dataset of 13 TeV at hand, the discovery potential for strongly
-produced SUSY was much larger than for electroweakinos. Therefore I focused at
-the beginning of Run-2, on light gluinos, consider both decays mediated by light
-stops or light squarks.
+The transition from 8 to 13 TeV in the center-of-mass energy of the LHC offered
+an unprecedented increase in sensitivity for colored SUSY particles in the
+vicinity of 1.5 TeV.
 
-In this search in a final state with exactly one lepton, I exploited the angle
-between the reconstructed $W$ and the lepton to search for SUSY events. I
-organized the group meetings and lead the group to a publication in PLB
-(\href{http://dx.doi.org/10.1016/j.physletb.2018.03.028}{10.1016/j.physletb.2018.03.028})
-I streamlined and optimized the binning of this search, to maximize the
-sensitivity for a given signal and also represented the analysis group in the
-approval talk.
+During the Long Shutdown 1, when I still was a member of the ATLAS
+collaboration, I supervised a student and we released a public note
+(ATL-PHYS-PUB-2015-005) assessing the discovery potential of gluinos as a
+function of their mass and the integrated luminosity in the final state with one
+lepton. We found that with already a small amount of data, we could surpass the
+exclusion limits from the searches carried out at a center-of-mass energy at 8
+TeV and given the right mass of the gluinos, we could have expected a discovery
+with a relatively small dataset.
+
+After my transition to CMS and Fermilab, I continued to work on this analysis in
+the same final state. At the beginning of Run-2, I focused on light gluinos,
+considering both decays mediated by light stops or light squarks. In this search
+in a final state with exactly one lepton, I exploited the angle between the
+reconstructed W and the lepton to search for SUSY events. I coordinated the
+analysis by organizing the group meetings, assessing the analysis strategy and
+leading the group to a publication in PLB (10.1016/j.physletb.2018.03.028).
+
+I measured the QCD background and assessed the systematic uncertainty on its
+yields. I optimized the binning of the signal of this search, to maximize the
+sensitivity for a given signal. Due to my optimizations, the sensitivity
+improved by ~100 GeV for heavy gluinos in the limit of massless neutralinos. I
+was chosen to present the analysis in front of the collaboration for approval.
 
 \vspace{15pt}
 \Large{}
-\textit{SUSY Search in single lepton final states in ATLAS} \\
-\normalsize{}
-
-Shortly before the start of Run-2, we assessed the sensitivity we could expect
-for a search for light gluinos with a dataset of ? fb$^{-1}$. Skip this since
-it's only a CONF-NOTE?
-
-\vspace{15pt}
-\Large{}
-\textit{SUSY Search in multi lepton final states in ATLAS} \\
+\textit{SUSY Search in three lepton final states in ATLAS}
 \normalsize{}
 
 During my PhD I searched for electroweakly produced SUSY in final states with
-three leptons and R-parity violating signal in final states with four leptons.
-As one of the first SUSY searches in ATLAS, I introduced a binning covering a
-large parameter space and being sensitive to many different SUSY signals. I also
-optimized the signal regions in final states of three leptons including one tau. 
+three leptons. In the search we considered gauge boson as well as light sleptons
+mediated decays of associated neutralino-chargino production.
+
+A large improvement in sensitivity was achieved by splitting the signal region
+in multiple bins depending on several kinematic variables, such as the missing
+transverse momentum, the invariant mass of a lepton pair and the transverse
+mass. This was one of the first SUSY searches in ATLAS that introduced such a
+binning of the signal region covering a large parameter space that is sensitive
+to many different SUSY signals. By exploiting the difference in kinematics in
+the individual signal regions I improved the sensitivity in the gauge boson
+mediated decay by 180 GeV, and in the slepton mediated decay by 200 GeV.
+
+In this search we also included final states with taus and interpreted results
+in associated neutralino-chargino production with stau mediated decays. I also
+optimized the signal regions in final states of three leptons including one tau.
 
 I was also responsible for the statistical interpretations of results by
 calculating discovery p-values, exclusion contours and upper limits on model
 cross-sections. I helped implementing a data driven estimate of the most
-important background, $WZ$, in the three lepton final state. The tools
-developed during this process have also been used by other analyses. This effort
-has led to a total of 4 papers
-(\href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.93.052002}
-{Phys.  Rev. D 93, 052002 (2016)},
-\href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.90.052001}
-{Phys. Rev. D. 90, 052001 (2014)},
-\href{https://link.springer.com/article/10.1007\%2FJHEP04\%282014\%29169}
-{JHEP04(2014)169},
-\href{https://www.sciencedirect.com/science/article/pii/S037026931201204X?via\%3Dihub}
-{Phys.Lett. B718 (2013) 841-859})
-, on which I have been a driving analyst.
+important background, WZ, in the three lepton final state. I also carried out
+the statistical interpretations of a search for R-Parity violating models in a
+final state with four leptons. This effort has led to a total of 4 papers (Phys.
+Rev. D 93, 052002 (2016), Phys. Rev. D. 90, 052001 (2014), JHEP04(2014)169,
+Phys.Lett. B718 (2013) 841-859), of which I have been a driving analyst. During
+this process I became the reference person for statistical interpretations in
+ATLAS SUSY EWK searches
 
 \vspace{15pt}
 \Large{}
-\textit{Test several electrical prototypes of the Outer Tracker upgrade} \\
+\textit{Electrical tests of several prototypes of the CMS Phase-2 Outer Tracker upgrade}
 \normalsize{}
 
-I tested several electrical prototypes of the Outer Tracker upgrade. I
-characterized all available full-sized module assemblies with version 2 of the
-prototype ASIC called CBC. The results went into the TDR (link?). I also tested
-the hybrids that we received from the manufacturer before they have been
-distributed to the different institutes. In several testbeams I helped setting
-up the device in the testbeam area and was responsible for efficient data
-taking.
+To cope with the large radiation and the high number of pileup events expected
+at the HL-LHC, the CMS detector will need to be upgraded. One of the most
+important aspects of the CMS HL-LHC upgrade is the complete replacement of the
+tracking system. There are multiple reasons for this. First of all the
+performance of the current detector will start degrading due to radiation
+damage, and the current detector could not operate efficiently for a time long
+enough. The new silicon tracker needs to be able to withstand much higher doses
+compared to the current one. Then, an increase in granularity and the capability
+of resolving tracks that are close in space are required to cope with the
+increase in the number of pileup collisions, which is expected to reach up to
+200 per bunch crossing. To extend the physics reach of CMS an increase in the
+acceptance of the tracking volume up to |eta|=4 is also necessary. Finally, the
+trigger thresholds for single leptons should not increase relative to the
+current values in order to retain, for example, sensitivity to SUSY final states
+with low momentum objects. This requires the use of tracking information already
+at the first level of the trigger system.
+
+In order to provide the tracking information for the L1 trigger decision the CMS
+Phase-2 outer tracking system is designed in such a way that local track
+segments are built in doublets of closely spaced sensors that form modules. Two
+kind of modules are foreseen for the CMS Outer Tracker: a module with two strip
+sensors (2S) and a module with a strip sensor and a pixel sensor (PS). The PS
+modules with their granularity allow for high resolution, while keeping the
+occupancy low. The 2S modules on the other hand limit the bandwidth and power
+consumption and subsequently the material needed in the tracking volume. The
+different modules are built around different kind of ASICs that are used to read
+out the silicon sensor information and form the local track segments. In the PS
+module there are two different types of ASICs. The MPA is bump-bonded onto a
+pixelated layer, while the SSA is wire-bonded to connect the strip layers. The
+2S modules use the CBC ASIC.
+
+The first prototype assembly for the MPA ASIC covers only a fraction of the
+sensor size planned for the PS modules and was named MPA-Light, and its module
+assembly MaPSA-Light. I set up a laser system at Fermilab, that triggered the
+data taking and measured the timewalk for this device for the first time with a
+sensor attached.
+
+For the CBC ASIC, I characterized all three full-sized prototype modules that
+were available at the time. The resulting measurements of the mean noise were
+released in the Technical Design Report of the CMS Phase-2 tracking system. For
+this measurements I have set up a readout system that is based on a GLIB readout
+card. In the bump-bonding lab at CERN, I have set up the same readout system, in
+order to test and measure the newly produced modules during and right after
+production. Since this was the first time the modules have been thoroughly
+characterized, I discovered several flaws in the firmware, software and module
+design, all of them have been improved by now.
+
+The same read-out setup has also been used to test the flexible circuits that
+are used to connect the two silicon strip layers in a 2S module. These hybrids
+have been commercially manufactured and I have done electrical tests to assure
+the quality of the prototypes. I automated the testing procedure completely by
+software, significantly speeding up the process. Also the generation of a test
+report was automated. The hybrid circuits that passed the quality assurance
+tests as well as the visual inspection, were shipped to various CMS member
+institutions for the construction of prototype modules. Thanks to the
+automatization of the quality assurance test process, the results can easily be
+reproduced by the institutes.
+
+At Fermilab I have set up a crate based read out, that was first used to read
+out a smaller prototype of the CBC chip and later to test version 3 of the CBC
+chip for the first time in a test beam. The crate based read out used a uTCA
+card developed at CERN called FC7. Since the FC7 based read-out offers more
+flexibility in terms of reading out module prototypes, I have set up the same
+FC7 based read out at CERN.
+
+I have contributed to several test beams by setting up the systems and allow for
+efficient data taking. The measurements obtained during these test beams are to
+be published in two separate publications, both are in preparation right now.
+
+\vspace{15pt}
+\Large{}
+\textit{Data acquisition with \textit{otsdaq}}
+\normalsize{}
 
 I also contributed to the development of \textit{otsdaq}, which is an
 off-the-shell DAQ solution for high energy physics experiments. I adopted the
-software to be used for the Phase-2 Outer Tracker modules and implementing the
+software to be used for the Phase-2 Outer Tracker modules and implemented the
 existing Phase-2 Outer Tracker software framework into \textit{otsdaq}. I have
 introduced the tool to the Phase-2 Outer Tracker community by giving
 presentations and a hands-on session at the Phase-2 Outer Tracker Workshop.
 
+Some of the highlights of \textit{otsdaq} are the finite state machine of the
+detector, a graphical user interface that allows for simple and easy to learn
+data taking, but also detector configuration, and live data quality monitoring,
+as well as smaller subsystems, like an integrated e-log, messaging service or
+macro maker.
+
+\textit{otsdaq} has been commissioned in several test beams. At the last CMS
+Phase-2 Outer Tracker test beam at Fermilab, it has been the standard tool for
+data taking.
+
 \vspace{15pt}
 \Large{}
-\textit{Test optical receivers for suitability with IBL detector} \\
+\textit{Test optical receivers for suitability with IBL detector}
 \normalsize{}
 
-For the IBL upgrade during Long-Shutdown-1 I have tested the optical readout
-components to be used off-detector. During these tests, I helped building up the
-IBL activities at the University of Bern. I have tested the feasibility of the
-usage for commerical products and selected the best suited candidate based on
-the experimental test data that I took. I also replaced optical transmitters
-that ceased to function during operation in Run-1.
+The insertable b-layer (IBL) is an addition to the pixel detector from Run-1 in
+ATLAS and was installed during the Long Shutdown 1. It is the layer closest to
+the interaction point and allows for more precise vertex finding and track
+separation. I have tested the commercial optical readout components to be used
+off-detector. For this I have set up the laboratory at the University of Bern.
+The acceptance criteria for the optical receivers with form factor SNAP 12 I
+have defined to be reliability, sensitivity to the input light intensity and
+frequency range. For testing the reliability, I have put them into a climate
+chamber for accelerated aging and monitored them with a logic analyzer and self
+programmed FPGA. I tested the receivers for efficiency as function of the input
+sensitivity and the frequency and found that two of the three different vendors
+matched all quality criteria. One of the two vendors was then chosen by the
+community, also depending on external factors like availability and price. I
+have presented my measurements in several IBL General Meetings and my results
+have been an important decision factor in choosing the right product. The
+receivers were later installed in the cavern and are still in operation. I also
+replaced optical transmitters that ceased to function during operation in Run-1.
 
 \end{statement}
 \fi
